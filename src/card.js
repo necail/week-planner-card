@@ -537,7 +537,7 @@ export class WeekPlannerCard extends LitElement {
                                 html`
                                     <div class="location">
                                         <ha-icon icon="mdi:map-marker"></ha-icon>
-                                        ${event.location}
+                                        ${event.location.split(',')[0]}
                                     </div>
                                 ` :
                                 ''
